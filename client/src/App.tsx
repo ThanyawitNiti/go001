@@ -7,7 +7,7 @@ export const BASE_URL = import.meta.env.MODE === "development" ? "http://localho
 
 function App() {
 	return (
-		<Stack h='100vh'>
+		<Stack h='100vh' w="100vw" justifyContent={"flex-start"}>
 			<Navbar />
 			<Container>
 				<TodoForm />
